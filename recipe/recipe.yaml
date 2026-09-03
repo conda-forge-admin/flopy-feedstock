@@ -31,6 +31,36 @@ requirements:
     - numpy >=1.20.3,<3.0
     - matplotlib-base >=1.4.0
     - pandas >=2.0.0
+  extras:
+    codegen:
+      - boltons >=1.0
+      - Jinja2 >=3.0
+      - modflow-devtools >=1.7.0,!=1.9.0,<2
+      - tomli
+      - tomli-w
+
+    optional:
+      - affine
+      - descartes
+      - fiona
+      - geojson
+      - geopandas
+      - GitPython
+      - h5py
+      - imageio
+      - netcdf4
+      - pooch
+      - pymetis
+      - pyproj
+      - pyshp
+      - pyvista
+      - rasterio
+      - rasterstats
+      - scikit-learn
+      - scipy
+      - shapely >=2.0
+      - vtk >=9.4.0
+      - xmipy
 
 tests:
   - python:
